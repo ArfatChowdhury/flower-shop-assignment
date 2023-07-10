@@ -44,6 +44,7 @@ body {
     background: #E55473;
     border: none;
     color: white;
+    
 }
 
 .text-part {
@@ -100,7 +101,7 @@ body {
     border-top-left-radius: 200px;
     border-top-right-radius: 200px;
     background-color: pink;
-    padding: 10px 10px 0px 10px ;
+    padding: 10px 10px 0px 10px;
     /* margin-bottom: 150px; */
 }
 
@@ -109,22 +110,70 @@ body {
     padding-top: 47px;
     /* padding-bottom: 10px; */
 }
-.flower-title{
+
+.flower-title {
     padding-top: 100px;
 }
-.flower-des{
+
+.flower-des {
     padding-bottom: 50px;
     width: 50%;
     margin: auto;
 }
-.flower-box{
+
+.flower-box {
     /* margin-top: 140px; */
-    margin: 140px auto ;
+    margin: 140px auto;
     width: 70%;
     background-color: #2727270D;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* padding: 140px; */
-    padding: 100px 60px ;
+    padding: 65px 60px;
+}
+
+.box-title {
+    padding-top: 15px;
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.box1 {
+    text-align: center;
+}
+
+.hot-container {
+    display: flex;
+    /* height: 60%; */
+    justify-content: space-around;
+    background: rgba(229, 84, 115, 0.05);
+    padding:  60px 140px;
+}
+.hot-text{
+    text-align: center;
+    /* padding-top: 170px; */
+    width: 50%;
+    margin: auto 0px;
+}
+.hot-img{
+    
+}
+.hot-flower-pic{
+    width: 300px;
+}
+.hot-title{
+    font-size: 30px;
+    font-weight: 800;
+    color: #272727;
+    padding-bottom: 15px;
+}
+.pink{
+    color: #E55473 ;
+}
+.hot-des{
+    font-size: 16px;
+    padding: 0 0 15px 0 ;
+    color: rgba(39, 39, 39, 0.60);
 }
