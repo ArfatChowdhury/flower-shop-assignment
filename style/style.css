@@ -195,6 +195,42 @@ body {
 }
 
 /* <!-- hot-deals-end  -->  */
+/* review section satrt  */
+.r-im{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 10px;
+}
+.review-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 131px;
+    gap: 15px;
+}
+.review-card{
+    text-align: center;
+    padding: 30px;
+    box-shadow: 4px 7px 10px rgb(70, 69, 69);
+    border-radius: 20px;
+}
+.title-name{
+    padding: 10px;
+}
+.icons{
+    margin: 10px;
+}
+.review-des{
+    font-family: 'Freehand', 'cursive';
+font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;
+font-size: 25px;
+}
+.pad{
+    padding-top: 10px;
+}
+/* review section satrt  */
 
 
 /* <!-- socail media section start  --> */
