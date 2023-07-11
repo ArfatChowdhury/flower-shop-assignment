@@ -82,6 +82,7 @@ body {
     justify-content: center;
     gap: 25px;
     align-items: center;
+    /* width: 80%; */
 }
 
 .flower-link {
@@ -124,7 +125,7 @@ body {
 .flower-box {
     /* margin-top: 140px; */
     margin: 140px auto;
-    width: 70%;
+    width: 75%;
     background-color: #2727270D;
     display: flex;
     justify-content: space-around;
@@ -180,13 +181,16 @@ body {
 .insta-pics{
     display: flex;
     /* width: 100vw; */
-    justify-content: space-around;
+    justify-content: center;
     gap: 5px;
-    padding: 0 60px;
+    padding: 0 131px;
 
 }
+
+
 .insta-img{
-    width: 300px;
+    /* width: 300px; */
+    width: 100%;
     
 }
 .instagram{
@@ -197,7 +201,7 @@ body {
     
     width: 80%;
     margin:  auto;
-    background-image: url('/Rectangle\ 9.png');
+    background-image: url('./Rectangle\ 9.png');
     /* height: 400px; */
 }
 .form{
