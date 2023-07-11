@@ -119,7 +119,12 @@ body {
     padding: 10px 10px 0px 10px;
     /* margin-bottom: 150px; */
 }
-
+.flower-clr2{
+    background-color: #0597A026;
+}
+.flower-clr3{
+    background-color: #477D1126;
+}
 .f-img {
     width: 100%;
     padding-top: 47px;
