@@ -24,6 +24,7 @@ body {
     color: #272727;
     font-size: 45px;
     font-weight: 800;
+    padding: 5px;
 }
 
 .img-header {
@@ -36,6 +37,7 @@ body {
     color: rgba(39, 39, 39, 0.60);
     font-size: 16px;
     font-weight: 400;
+    padding: 5px 5px 10px 0;
 }
 
 .btn {
@@ -49,6 +51,7 @@ body {
 
 
 .text-part {
+    
     padding-left: 150px;
     padding-top: 100px;
 }
