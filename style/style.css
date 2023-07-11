@@ -8,7 +8,7 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-
+/* <!-- main banner start --> */
 .header {
     height: 100vh;
     background-color: rgba(229, 84, 115, 0.10);
@@ -47,6 +47,7 @@ body {
 
 }
 
+
 .text-part {
     padding-left: 150px;
     padding-top: 100px;
@@ -59,6 +60,7 @@ body {
     justify-content: end;
     align-items: end;
 }
+/* <!-- main banner end -->  */
 
 .center {
     color: #272727;
@@ -68,7 +70,7 @@ body {
     padding: 5px;
 
 }
-
+/* <!-- flower-container start  -->  */
 .flower-des {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
@@ -78,9 +80,18 @@ body {
 }
 
 .flower-type {
-    display: flex;
+    /* display: flex;
     justify-content: center;
     gap: 25px;
+    align-items: center;
+    width: 80%; */
+    width: 85%;
+    margin: auto;
+}
+.flower-type1 {
+    display: flex;
+    justify-content: space-between;
+    
     align-items: center;
     /* width: 80%; */
 }
@@ -133,6 +144,7 @@ body {
     padding: 65px 60px;
 }
 
+
 .box-title {
     padding-top: 15px;
     color: rgba(39, 39, 39, 0.80);
@@ -144,7 +156,10 @@ body {
 .box1 {
     text-align: center;
 }
+/* <!-- flower-container end --> */
 
+
+/* <!-- hot-deals-start  -->  */
 .hot-container {
     display: flex;
     /* height: 60%; */
@@ -178,6 +193,11 @@ body {
     padding: 0 0 15px 0 ;
     color: rgba(39, 39, 39, 0.60);
 }
+
+/* <!-- hot-deals-end  -->  */
+
+
+/* <!-- socail media section start  --> */
 .insta-pics{
     display: flex;
     /* width: 100vw; */
@@ -214,6 +234,7 @@ body {
     border: none;
     margin: 5px;
 }
+/* <!-- socail media section end  --> */
 .image-banner{
 padding-bottom: 100px;
 }
